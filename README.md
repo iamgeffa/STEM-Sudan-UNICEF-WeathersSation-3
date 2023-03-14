@@ -1,10 +1,10 @@
-#Project Name
+# **Project Name**
 Weather Station with DHT11 and BMP180 sensors and ThingSpeak IoT platform
 
-Description
+## **Description**
 This project uses an ESP8266 microcontroller with DHT11 temperature and humidity sensor and BMP180 barometric pressure sensor to measure and monitor environmental conditions. The readings are sent to the ThingSpeak IoT platform for data visualization and analysis. The program is written in Arduino IDE using C++ language.
 
-Installation
+## Installation
 To run this program, you need the following components:
 
 ESP8266 microcontroller board
@@ -26,11 +26,10 @@ Replace the Wi-Fi credentials and ThingSpeak API key with your own values.
 Connect the DHT11 sensor to the ESP8266 board's GPIO2 pin and the BMP180 sensor to the SDA and SCL pins.
 Upload the program to the ESP8266 board.
 Open the serial monitor to view the sensor readings and check if the data is being sent to ThingSpeak.
-Usage
+## Usage
 This program measures temperature, humidity, barometric pressure, and altitude using DHT11 and BMP180 sensors and sends the data to ThingSpeak for monitoring and analysis. To use this program, follow the installation instructions and connect the sensors to the ESP8266 board. You can view the sensor readings on the serial monitor and the data visualization on the ThingSpeak platform.
 
-Contributing
-If you want to contribute to this project, you can submit a pull request with your proposed changes or improvements. Make sure to follow the coding style and keep the program simple and efficient.
+##  Contributing
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is free of licensed 
